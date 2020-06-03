@@ -8,7 +8,7 @@ const useStyles = makeStyles({
          padding:"20px"
      },
      projects:{
-        width:"70%",
+        width:"90%",
         position:"relative",
         marginTop:"15px",
         paddingBottom:"15px",
@@ -17,20 +17,17 @@ const useStyles = makeStyles({
      motion_project:{
          display:"flex",
          flexDirection:"column",
-         '@media (min-width: 780px)' : {
-            flexDirection:"row"
-          },
+         alignItems:"center",
+         textAlign:"left"
      },
      project_image:{
-         width:"100%",
-         '@media (min-width: 780px)' : {
-            width:"40%"
-          },
+         width:"80%",
+        
      },
      inner_project:{
         display:"flex",
         flexDirection:"column",
-        width:"100%"
+        width:"80%"
     },
     project_buttons:{
         display:"flex",

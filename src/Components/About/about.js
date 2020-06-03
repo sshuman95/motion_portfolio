@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import "./about.css";
 const useStyles = makeStyles({
    about: {
-      width: '70%',
+      width: '90%',
       alignSelf:"center",
      
       
