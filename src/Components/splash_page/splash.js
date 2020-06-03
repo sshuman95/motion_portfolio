@@ -14,7 +14,7 @@ const Splash = () =>{
           rotate: 0,
         }}
         transition={{
-            delay: 1,
+            delay: .8,
             duration: .8,
             type: "spring",
             stiffness: 260,
@@ -23,7 +23,7 @@ const Splash = () =>{
         className="splash_motion"
       >
           <motion.div 
-            transition={{ ease: "easeIn", duration: 0.4 }}
+            transition={{ ease: "easeIn", duration: 0.2 }}
             initial={{ y: 300, opacity:0}}
             animate={{ y: 300, opacity:1 }}
             >
