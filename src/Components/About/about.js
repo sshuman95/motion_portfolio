@@ -25,7 +25,7 @@ const About = () =>{
         <section className={classes.about}>
           <Paper className={classes.paper} elevation={3}>
             
-            <Typography>IDk What to put here</Typography>
+            <Typography variant="h3"></Typography>
           </Paper>
           </section>
     )
