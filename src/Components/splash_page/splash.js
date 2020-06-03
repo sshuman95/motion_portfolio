@@ -41,14 +41,15 @@ const Splash = () =>{
           y: 0,
           scale: 0,
           rotate: 0,
+          
         }}
         transition={{
-            delay: 1.8,
-            duration: .8,
-            type: "spring",
-            stiffness: 260,
-            damping: 20
-          }}
+          delay: 1.8,
+          duration: .8,
+          type: "spring",
+          stiffness: 260,
+          damping: 20
+        }}
         className="splash_motion"
       >
           <img src={source} className="lightbulb"/>

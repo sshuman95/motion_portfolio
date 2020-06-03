@@ -5,10 +5,9 @@ import Typography from '@material-ui/core/Typography';
 import "./about.css";
 const useStyles = makeStyles({
    about: {
-      width: '100%',
-      gridColumn:"4/10",
-      gridRow:"1/8",
-      height:"100%"
+      width: '70%',
+      alignSelf:"center",
+     
       
     },
     paper:{
@@ -16,7 +15,7 @@ const useStyles = makeStyles({
         height:"100%",
         display:"flex",
         flexDirection:"column",
-        justifyContent:"center"
+        justifyContent:"center",
     }
   });
 
@@ -25,8 +24,8 @@ const About = () =>{
     return (
         <section className={classes.about}>
           <Paper className={classes.paper} elevation={3}>
-            <Typography variant="h3">Sidney Shuman</Typography>
-            <Typography>My name is Sidney Shuman. I am web developer located in Richmond, Virginia. I like to code things from scratch, and enjoy bringing ideas to life. Feel free to check out the projects I've worked on below.</Typography>
+            
+            <Typography>IDk What to put here</Typography>
           </Paper>
           </section>
     )

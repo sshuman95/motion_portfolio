@@ -10,6 +10,7 @@ function App() {
        <Splash/>
       <main id="grid">
         <About/>
+        <Projects/>
       </main>
     </div>
   );
