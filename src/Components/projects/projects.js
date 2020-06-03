@@ -92,6 +92,18 @@ const Projects = () =>{
         return(
             <div>
             <motion.div 
+            drag="x"
+            dragConstraints={{ left: 0, right: 10 }}
+            onDrag={
+                (event, info) => {
+                    if(info.point.x>80){
+                        changeProject();
+                    } else {
+                        console.log("nope");
+                    }
+                }
+              
+              }
             className={classes.motion_project}
             initial={{x:-70}}
             animate={{ x:0}}
