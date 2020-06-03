@@ -11,12 +11,11 @@ const Splash = () =>{
   function useInterval(callback, delay) {
     const savedCallback = useRef();
   
-    // Remember the latest callback.
     useEffect(() => {
       savedCallback.current = callback;
     }, [callback]);
   
-    // Set up the interval.
+
     useEffect(() => {
       function tick() {
         savedCallback.current();
@@ -30,14 +29,10 @@ const Splash = () =>{
 
 
   useInterval(() => {
-    // Your custom logic here
     setSource(image2);
-  }, 1000);
+  }, 1100);
 
 
-  const imageSwitch= () =>{
-    setSource(image2);
-  }
     return (
         <motion.div
         initial={{ scale: 1 }}
@@ -48,7 +43,7 @@ const Splash = () =>{
           rotate: 0,
         }}
         transition={{
-            delay: 1000,
+            delay: 1.8,
             duration: .8,
             type: "spring",
             stiffness: 260,
