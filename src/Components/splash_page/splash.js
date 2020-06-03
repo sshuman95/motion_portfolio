@@ -14,7 +14,7 @@ const Splash = () =>{
           rotate: 0,
         }}
         transition={{
-            delay: 3,
+            delay: 1.6,
             duration: .8,
             type: "spring",
             stiffness: 260,
@@ -24,17 +24,11 @@ const Splash = () =>{
       >
           <motion.div 
             transition={{ ease: "easeIn", duration: 0.4 }}
-            initial={{ y: 0}}
-            animate={{ y: 100 }}
+            initial={{ y: 300, opacity:0}}
+            animate={{ y: 300, opacity:1 }}
             >
-          <h1 style={{color:"white"}}>Sidney Shuman</h1>
-          </motion.div>
-          <motion.div 
-            transition={{ type:"spring", duration: 0.4,delay: .5, }}
-            initial={{scale:0,y:0}}
-            animate={{scale:1,y:110 }}
-            >
-          <h1 style={{color:"white"}}>Web Devloper</h1>
+          <img src="https://sidneyshuman.com/static/media/new_logo.ee76600a.png"/>
+          <h1 style={{color:"white"}}>Web Developer</h1>
           </motion.div>
           
           </motion.div>
@@ -45,3 +39,39 @@ const Splash = () =>{
 };
 
 export default Splash;
+
+/*        <motion.div
+        initial={{ scale: 1 }}
+        animate={{
+          x: 0,
+          y: 0,
+          scale: 0,
+          rotate: 0,
+        }}
+        transition={{
+            delay: 2,
+            duration: .8,
+            type: "spring",
+            stiffness: 260,
+            damping: 20
+          }}
+        className="splash_motion"
+      >
+          <motion.div 
+            transition={{ ease: "easeIn", duration: 0.4 }}
+            initial={{ y: 200}}
+            animate={{ y: 300 }}
+            >
+          <h1 style={{color:"white"}}>Sidney Shuman</h1>
+          </motion.div>
+          <motion.div 
+            transition={{ type:"spring", duration: 0.4,delay: .4, }}
+            initial={{scale:0,y:300}}
+            animate={{scale:1,y:310 }}
+            >
+          <h1 style={{color:"white"}}>Web Developer</h1>
+          </motion.div>
+          
+          </motion.div>
+        
+           */
