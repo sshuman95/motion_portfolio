@@ -14,7 +14,7 @@ const Splash = () =>{
           rotate: 0,
         }}
         transition={{
-            delay: 1.6,
+            delay: 1,
             duration: .8,
             type: "spring",
             stiffness: 260,
