@@ -1,21 +1,28 @@
 import React from "react";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+const useStyles = makeStyles({
+     paper:{
+         borderRadius:"5px",
+     },
+     projects:{
+        gridColumn: "4/10",
+        gridRow:"5/8"
+     }
+   });
 
 
+ 
 
 const Projects = () =>{
+    const classes = useStyles();
     return (
-        <motion.div 
-        transition={{ ease: "easeIn", duration: .4, delay:2}}
-        initial={{ y: 60, display:"none"}}
-        animate={{ y: 10,display:"block" }}
-        >
-          <div style={{backgroundColor:"black", color:"white"}}>
-   
-                <h1 style={{color:"white"}}>Projects</h1>
-               
-          </div>
-          </motion.div>  
+          <section className={classes.projects}>
+              <Paper className={classes.paper}>
+                    <h1>Hello</h1>
+              </Paper>
+          </section>
     )
 };
 
