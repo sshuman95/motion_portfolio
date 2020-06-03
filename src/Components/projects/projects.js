@@ -101,9 +101,9 @@ const Projects = () =>{
             dragConstraints={{ left: 0, right: 0 }}
             onDrag={
                 (event, info) => {
-                    if(info.point.x>75){
+                    if(info.point.x>70){
                         changeProject();
-                    } else if(info.point.x<-75){
+                    } else if(info.point.x<-70){
                         prevProject();
                     }
                 }
