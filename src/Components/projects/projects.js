@@ -43,6 +43,11 @@ const useStyles = makeStyles({
         '&:hover': {
             cursor:"pointer"
          }
+    },
+    pointer:{
+        '&:hover': {
+            cursor:"pointer"
+         }
     }
    });
 
@@ -88,18 +93,18 @@ const Projects = () =>{
         }
     }
 
-    const Test = () =>{
+    const Container = () =>{
         return(
-            <div>
+            <div className={classes.pointer}>
             <motion.div 
             drag="x"
-            dragConstraints={{ left: 0, right: 10 }}
+            dragConstraints={{ left: 0, right: 0 }}
             onDrag={
                 (event, info) => {
-                    if(info.point.x>80){
+                    if(info.point.x>75){
                         changeProject();
-                    } else {
-                        console.log("nope");
+                    } else if(info.point.x<-75){
+                        prevProject();
                     }
                 }
               
@@ -126,7 +131,7 @@ const Projects = () =>{
     return (
           <section className={classes.projects}>
               <Paper className={classes.paper}>
-                    <Test/>
+                    <Container/>
                    
               </Paper>
              
