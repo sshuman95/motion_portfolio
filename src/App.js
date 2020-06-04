@@ -4,13 +4,29 @@ import './App.css';
 import Splash from "./Components/splash_page/splash";
 import Projects from "./Components/projects/projects";
 import About from "./Components/About/about";
+import Exp from "./Components/Exp/exp";
+import { motion } from "framer-motion"
 function App() {
   return (
     <div className="App">
        <Splash/>
+       <header className="header">
+        <nav>
+          <div className="initials">
+              <h3>SS</h3>
+          </div>
+          <div className="links">
+            <a>Home</a>
+            <a>About</a>
+            <a>Projects</a>
+          </div>
+        </nav>
+       </header>
       <main id="grid">
         <About/>
+        <Exp/>
         <Projects/>
+        
       </main>
     </div>
   );

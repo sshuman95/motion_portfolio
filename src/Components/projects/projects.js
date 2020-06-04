@@ -5,13 +5,17 @@ import Paper from '@material-ui/core/Paper';
 const useStyles = makeStyles({
      paper:{
          borderRadius:"5px",
-         padding:"20px"
+         padding:"20px",
+         minHeight:"90vh",
+         display:"flex",
+         alignItems:"center",
+         boxShadow:"0px 0px 25px 0px rgba(243,210,80,1)"
      },
      projects:{
-        width:"90%",
+        width:"80%",
         position:"relative",
-        marginTop:"15px",
-        paddingBottom:"15px",
+        marginTop:"10px",
+        paddingBottom:"0px",
         zIndex:1
      },
      motion_project:{
@@ -32,11 +36,12 @@ const useStyles = makeStyles({
     project_buttons:{
         display:"flex",
         justifyContent:"space-evenly",
-        marginTop:"15px"
+        marginTop:"15px",
     },
     button:{
-        backgroundColor:"white",
-        width:"15%",
+        backgroundColor:"transparent",
+        width:"12em",
+        marginBottom:"15px",
         border:"1px solid black",
         borderRadius:"5px",
         height:"25px",
@@ -115,6 +120,7 @@ const Projects = () =>{
     const Container = () =>{
         return(
             <div className={classes.pointer}>
+
             <motion.div 
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
@@ -149,7 +155,7 @@ const Projects = () =>{
      
     return (
           <section className={classes.projects}>
-              <Paper className={classes.paper}>
+              <Paper elavation={3} className={classes.paper}>
                     <Container/>
                    
               </Paper>

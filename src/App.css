@@ -1,15 +1,11 @@
 .App {
   text-align: center;
   height:100%;
-  background-color:black;
-  background-image:
-  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  color:#2F2E41;
 }
+
 
 
 .splash_motion{
@@ -17,11 +13,6 @@
   height:100%;
   width:100%;
   background-color:black;
-  background-image:
-  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   top:0;
@@ -34,8 +25,8 @@
 
 #grid{
   display:flex;
-  flex-direction: column;
   align-items:center;
+  flex-direction: column;
 }
   
 .lightbulb{
@@ -46,4 +37,33 @@
   height:25em;
   position: absolute;
   align-self: center;
+}
+
+
+nav{
+  display: flex;
+  width:80%;
+  margin:10px auto 20px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  width:60%;
+  color:#2F2E41;
+  font-weight: bolder;
+}
+
+.initials{
+  padding:0px 20px;
+  color:#2F2E41;
+  border:5px solid rgba(243,210,80,.8);
+  text-align: center;
+  justify-self: right;
+}
+
+@media only screen and (min-width:700px) {
+
 }
