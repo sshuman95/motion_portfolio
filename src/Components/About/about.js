@@ -31,7 +31,10 @@ const useStyles = makeStyles({
     
   },
   mic:{
-    width:"20%"
+    width:"50%",
+    '@media (min-width: 780px)' : {
+      width:"20%"
+    }
   },
   aboutInfo:{
     display:'flex',

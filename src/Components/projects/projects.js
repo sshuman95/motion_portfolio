@@ -14,7 +14,7 @@ const useStyles = makeStyles({
      projects:{
         width:"80%",
         position:"relative",
-        marginTop:"10px",
+        marginTop:"50px",
         paddingBottom:"0px",
         zIndex:1
      },
@@ -37,6 +37,12 @@ const useStyles = makeStyles({
         display:"flex",
         justifyContent:"space-evenly",
         marginTop:"15px",
+        flexDirection:"column",
+        alignItems:"center",
+        '@media (min-width: 780px)' : {
+            flexDirection:"row"
+            
+          }
     },
     button:{
         backgroundColor:"transparent",
