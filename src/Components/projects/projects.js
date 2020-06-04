@@ -146,10 +146,10 @@ const Projects = () =>{
             transition={{ type: "spring", stiffness: 100}}>
                
                 <img src={project_list[project].image} className={classes.project_image}/>
-                <div  className={classes.inner_project}>
+                <article  className={classes.inner_project}>
                 <h1>{project_list[project].name}</h1> 
                 <p>{project_list[project].desc} </p>
-                </div>
+                </article>
             </motion.div>
             <div className={classes.project_buttons}>
             <button className={classes.button} onClick={prevProject}>{project_list[prev].name}</button>

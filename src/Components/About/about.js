@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import "./about.css";
-import mic from "../../mic.svg";
+import mic from "../../app_pic.svg";
 const useStyles = makeStyles({
   paper:{
       borderRadius:"5px",
@@ -31,9 +31,9 @@ const useStyles = makeStyles({
     
   },
   mic:{
-    width:"50%",
+    width:"60%",
     '@media (min-width: 780px)' : {
-      width:"20%"
+      width:"30%"
     }
   },
   aboutInfo:{
@@ -55,7 +55,7 @@ const About = () =>{
       <Paper elavation={3} className={classes.paper}>
         <div className={classes.aboutInfo}>
             <Typography variant="h5" className={classes.typography}>Hello, my name is Sidney.</Typography>
-            <Typography variant="h5" className={classes.typography}>I'm a Web Developer Living in Richmond, VA</Typography>
+            <Typography variant="h5" className={classes.typography}>I'm a Web Developer Living in Richmond, VA.</Typography>
         </div>
            <img src={mic} className={classes.mic}/>
       </Paper>

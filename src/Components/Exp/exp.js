@@ -2,10 +2,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import coding from "../../coding.svg";
 const useStyles = makeStyles({
   paper:{
       borderRadius:"5px",
-      minHeight:"90vh",
+      minHeight:"80vh",
       display:"flex",
       alignItems:"center",
       width:"100%",
@@ -18,9 +19,10 @@ const useStyles = makeStyles({
   paper_two:{
     borderRadius:"5px",
     marginTop:"25px",
-    minHeight:"90vh",
+    minHeight:"80vh",
     display:"flex",
-    alignItems:"center",
+    alignItems:"flex-start",
+    flexDirection:"column",
     width:"100%",
     boxShadow:"0px 0px 25px 0px rgba(243,210,80,1)",
     '@media (min-width: 780px)' : {
@@ -43,6 +45,15 @@ const useStyles = makeStyles({
         flexDirection:"row"
         
       }
+  },
+  coding:{
+      width:"100%"
+  },
+  skills:{
+    color:"#2F2E41",
+    fontWeight:"bold",
+    marginTop:"15px",
+    padding:"15px"
   }
 })
 
@@ -50,18 +61,18 @@ const Test = ()=>{
     const classes = useStyles();
     return(
         <Paper elavation={3} className={classes.paper}>
-                <h1>Hello</h1>  
+            
          
         </Paper>
     )
 }
 
-const Test2 = ()=>{
+const Skills = ()=>{
     const classes = useStyles();
     return(
         <Paper elavation={3} className={classes.paper_two}>
-                <h1>Hello</h1>  
-         
+            <img src={coding} className={classes.coding}/> 
+            <Typography variant="h3" className={classes.skills}>Skills</Typography>
         </Paper>
     )
 }
@@ -71,7 +82,7 @@ const Exp = () =>{
     return (
       <section className={classes.about}>
           <Test/>
-          <Test2/>
+          <Skills/>
       </section>
     )
 };
