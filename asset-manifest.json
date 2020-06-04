@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/motion_portfolio/static/css/main.77d38a84.chunk.css",
-    "main.js": "/motion_portfolio/static/js/main.736214a9.chunk.js",
-    "main.js.map": "/motion_portfolio/static/js/main.736214a9.chunk.js.map",
+    "main.js": "/motion_portfolio/static/js/main.6329986e.chunk.js",
+    "main.js.map": "/motion_portfolio/static/js/main.6329986e.chunk.js.map",
     "runtime-main.js": "/motion_portfolio/static/js/runtime-main.b29a03b8.js",
     "runtime-main.js.map": "/motion_portfolio/static/js/runtime-main.b29a03b8.js.map",
-    "static/js/2.289ed2bb.chunk.js": "/motion_portfolio/static/js/2.289ed2bb.chunk.js",
-    "static/js/2.289ed2bb.chunk.js.map": "/motion_portfolio/static/js/2.289ed2bb.chunk.js.map",
+    "static/js/2.13dcf62b.chunk.js": "/motion_portfolio/static/js/2.13dcf62b.chunk.js",
+    "static/js/2.13dcf62b.chunk.js.map": "/motion_portfolio/static/js/2.13dcf62b.chunk.js.map",
     "index.html": "/motion_portfolio/index.html",
-    "precache-manifest.3a8d1755543b84312b38f69c8fbc821d.js": "/motion_portfolio/precache-manifest.3a8d1755543b84312b38f69c8fbc821d.js",
+    "precache-manifest.cb3cde822a4e0f31192037e0abf44a90.js": "/motion_portfolio/precache-manifest.cb3cde822a4e0f31192037e0abf44a90.js",
     "service-worker.js": "/motion_portfolio/service-worker.js",
     "static/css/main.77d38a84.chunk.css.map": "/motion_portfolio/static/css/main.77d38a84.chunk.css.map",
-    "static/js/2.289ed2bb.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.289ed2bb.chunk.js.LICENSE.txt",
+    "static/js/2.13dcf62b.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.13dcf62b.chunk.js.LICENSE.txt",
+    "static/media/app_pic.svg": "/motion_portfolio/static/media/app_pic.893694fa.svg",
+    "static/media/coding.svg": "/motion_portfolio/static/media/coding.4d613f7b.svg",
     "static/media/lightbulb.svg": "/motion_portfolio/static/media/lightbulb.685cd59f.svg",
     "static/media/logo.svg": "/motion_portfolio/static/media/logo.5d5d9eef.svg",
-    "static/media/mic.svg": "/motion_portfolio/static/media/mic.d92c5352.svg",
     "static/media/yellowbulb.svg": "/motion_portfolio/static/media/yellowbulb.7e7f6bfe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b29a03b8.js",
-    "static/js/2.289ed2bb.chunk.js",
+    "static/js/2.13dcf62b.chunk.js",
     "static/css/main.77d38a84.chunk.css",
-    "static/js/main.736214a9.chunk.js"
+    "static/js/main.6329986e.chunk.js"
   ]
 }
