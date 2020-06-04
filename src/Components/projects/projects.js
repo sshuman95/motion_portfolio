@@ -73,26 +73,45 @@ const useStyles = makeStyles({
 
 
 const Projects = () =>{
+    //State
     const classes = useStyles();
     const [project, setProject] = useState(0);
+    const [next, setNext] = useState(1);
+    const [prev, setPrev] = useState(2);
+
+    //Functions
     const changeProject= () =>{
-        if(project ===2 ){
-            setProject(0)
+        if(project === (project_list.length - 1) ){
+            setProject(0);
+            setPrev(2);
+            setNext(1)
         } else {
             let count = project+1;
+            let nxt = count ===2?0:count+1;
+            let prv = count >= 1 ? count -1 : 2;
             setProject(count);
+           setNext(nxt);
+           setPrev(prv);
         }
     }
 
     const prevProject= () =>{
         if(project ===0 ){
-            setProject(2)
+            setProject(project_list.length - 1);
+            setPrev(1);
+            setNext(0);
         } else {
             let count = project - 1;
+            let nxt = count ===2?0:count+1;
+            let prv = count >=1 ? count -1 : 2;
             setProject(count);
+            setNext(nxt);
+           setPrev(prv);
         }
     }
 
+
+    //Components
     const Container = () =>{
         return(
             <div className={classes.pointer}>
@@ -121,8 +140,8 @@ const Projects = () =>{
                 </div>
             </motion.div>
             <div className={classes.project_buttons}>
-            <button className={classes.button} onClick={prevProject}>Prev</button>
-            <button className={classes.button} onClick={changeProject}>Next</button>
+            <button className={classes.button} onClick={prevProject}>{project_list[prev].name}</button>
+            <button className={classes.button} onClick={changeProject}>{project_list[next].name}</button>
             </div>
             </div>
         )
