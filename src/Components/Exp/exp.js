@@ -153,7 +153,11 @@ const About = ()=>{
                 <section className={classes.section}>
                     <h3  className={classes.title}>Leisure</h3>
                     <article className={classes.container}>
-                    <p className={classes.pg}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Brazilian Jiu-Jitsu</p>
+                    <p className={classes.pg}>Upstream BJJ</p>
+                    <Divider className={classes.divider}/>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Coming Soon</p>
+                    <p className={classes.pg}>Coming soon</p>
                     </article>
                 </section>
                 </motion.div>
@@ -168,34 +172,7 @@ const Skills = ()=>{
         <Paper elavation={3} className={classes.paper_two}>
             <img src={coding} className={classes.coding}/> 
             <Typography variant="h4" className={classes.skills}>Skills</Typography>
-            <List aria-label="main mailbox folders">
-                <ListItem>
-                  <ListItemText
-                    primary="Front End"
-                    //secondary={secondary ? 'Secondary text' : null}
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemText
-                    primary="HTML"
-                    //secondary={secondary ? 'Secondary text' : null}
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemText
-                    primary="CSS"
-                    //secondary={secondary ? 'Secondary text' : null}
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemText
-                    primary="Javascript"
-                    //secondary={secondary ? 'Secondary text' : null}
-                  />
-                </ListItem>
-
-            </List>
-            <Divider />
+           
         </Paper>
     )
 }
