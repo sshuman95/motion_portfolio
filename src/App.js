@@ -16,9 +16,9 @@ function App() {
               <h3>SS</h3>
           </div>
           <div className="links">
-            <a>Home</a>
             <a>About</a>
             <a>Projects</a>
+            <a>Contact</a>
           </div>
         </nav>
        </header>

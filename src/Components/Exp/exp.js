@@ -3,7 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import coding from "../../coding.svg";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import ListItemText from '@material-ui/core/ListItemText';
+import Divider from '@material-ui/core/Divider';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 
 const useStyles = makeStyles({
   paper:{
@@ -47,7 +51,8 @@ const useStyles = makeStyles({
      marginTop:"25px",
      alignItems:"center",
      '@media (min-width: 780px)' : {
-        flexDirection:"row"
+        flexDirection:"row",
+        alignItems:"stretch"
         
       }
   },
@@ -80,12 +85,21 @@ const useStyles = makeStyles({
   },
   pg:{
       padding:"0px 15px",
-      border:"1px solid #F3D250",
-      marginTop:"0"
+      marginTop:"0",
+      marginBottom:"0",
+      color:"#2F2E41"
   },
   article:{
       width:"100%",
       margin:"5% auto"
+  },
+  container:{
+    border: "1px solid #F3D250",
+    paddingTop:"10px",
+    paddingBottom:"10px"
+  },
+  divider:{
+      margin:"10px 0"
   }
 })
 
@@ -102,7 +116,19 @@ const About = ()=>{
                     >
                 <section className={classes.section}>
                     <h3 className={classes.title}>Work History</h3>
-                    <p className={classes.pg}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <article className={classes.container}>
+                    <p  style={{fontWeight:"bold"}} className={classes.pg}>CollectivTech</p>
+                    <p className={classes.pg}>Production Specialist</p>
+                    <p className={classes.pg}>2020 - Current</p>
+                    <Divider className={classes.divider}/>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>RND Interactive</p>
+                    <p className={classes.pg}>Production Specialist</p>
+                    <p className={classes.pg}>2019 - 2020</p>
+                    <Divider className={classes.divider}/>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>SLAIT Consulting</p>
+                    <p className={classes.pg}>IT Project Coordinator</p>
+                    <p className={classes.pg}>2018 - 2019</p>
+                    </article>
                 </section>
                 </motion.div>
                 <motion.div
@@ -110,7 +136,15 @@ const About = ()=>{
                     >
                 <section className={classes.section}>
                     <h3  className={classes.title}>Education</h3>
-                    <p className={classes.pg}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <article className={classes.container}>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Virginia Commonwealth University</p>
+                    <p className={classes.pg}>Economics, Bachelor of Science (B.S.)</p>
+                    <p className={classes.pg}>2014 - 2018</p>
+                    <Divider className={classes.divider}/>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Codecademy</p>
+                    <p className={classes.pg}>Web Development Path / Learn PHP / Data Science Path (Curernt)</p>
+                    <p className={classes.pg}>2018 - Current</p>
+                    </article>
                 </section>
                 </motion.div>
                 <motion.div
@@ -118,7 +152,9 @@ const About = ()=>{
                     >
                 <section className={classes.section}>
                     <h3  className={classes.title}>Leisure</h3>
+                    <article className={classes.container}>
                     <p className={classes.pg}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </article>
                 </section>
                 </motion.div>
             </article>
@@ -132,6 +168,34 @@ const Skills = ()=>{
         <Paper elavation={3} className={classes.paper_two}>
             <img src={coding} className={classes.coding}/> 
             <Typography variant="h4" className={classes.skills}>Skills</Typography>
+            <List aria-label="main mailbox folders">
+                <ListItem>
+                  <ListItemText
+                    primary="Front End"
+                    //secondary={secondary ? 'Secondary text' : null}
+                  />
+                </ListItem>
+                <ListItem>
+                  <ListItemText
+                    primary="HTML"
+                    //secondary={secondary ? 'Secondary text' : null}
+                  />
+                </ListItem>
+                <ListItem>
+                  <ListItemText
+                    primary="CSS"
+                    //secondary={secondary ? 'Secondary text' : null}
+                  />
+                </ListItem>
+                <ListItem>
+                  <ListItemText
+                    primary="Javascript"
+                    //secondary={secondary ? 'Secondary text' : null}
+                  />
+                </ListItem>
+
+            </List>
+            <Divider />
         </Paper>
     )
 }
