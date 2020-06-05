@@ -91,7 +91,7 @@ const useStyles = makeStyles({
   },
   article:{
       width:"100%",
-      margin:"5% auto"
+      margin:"3% auto"
   },
   container:{
     border: "1px solid #F3D250",
@@ -203,7 +203,7 @@ const Skills = ()=>{
 const Exp = () =>{
     const classes = useStyles();
     return (
-      <section className={classes.about}>
+      <section className={classes.about} id="about">
           <About/>
           <Skills/>
       </section>

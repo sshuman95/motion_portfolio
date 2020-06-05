@@ -160,7 +160,7 @@ const Projects = () =>{
     }
      
     return (
-          <section className={classes.projects}>
+          <section className={classes.projects} id="projects">
               <Paper elavation={3} className={classes.paper}>
                     <Container/>
                    

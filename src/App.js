@@ -16,8 +16,8 @@ function App() {
               <h3>SS</h3>
           </div>
           <div className="links">
-            <a>About</a>
-            <a>Projects</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
             <a>Contact</a>
           </div>
         </nav>
@@ -26,7 +26,6 @@ function App() {
         <About/>
         <Exp/>
         <Projects/>
-        
       </main>
       <footer>
         <h1>Hello</h1>

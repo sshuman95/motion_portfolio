@@ -6,7 +6,11 @@
   color:#2F2E41;
 }
 
-
+a{
+  color: #2F2E41;
+  font-weight: bolder;
+  text-decoration: none;
+}
 
 .splash_motion{
   position: fixed;
