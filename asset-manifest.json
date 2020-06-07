@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/motion_portfolio/static/css/main.135ca307.chunk.css",
-    "main.js": "/motion_portfolio/static/js/main.cc5e3f17.chunk.js",
-    "main.js.map": "/motion_portfolio/static/js/main.cc5e3f17.chunk.js.map",
+    "main.js": "/motion_portfolio/static/js/main.54e11c72.chunk.js",
+    "main.js.map": "/motion_portfolio/static/js/main.54e11c72.chunk.js.map",
     "runtime-main.js": "/motion_portfolio/static/js/runtime-main.b29a03b8.js",
     "runtime-main.js.map": "/motion_portfolio/static/js/runtime-main.b29a03b8.js.map",
-    "static/js/2.0aeaa3ae.chunk.js": "/motion_portfolio/static/js/2.0aeaa3ae.chunk.js",
-    "static/js/2.0aeaa3ae.chunk.js.map": "/motion_portfolio/static/js/2.0aeaa3ae.chunk.js.map",
+    "static/js/2.7b0fd3cb.chunk.js": "/motion_portfolio/static/js/2.7b0fd3cb.chunk.js",
+    "static/js/2.7b0fd3cb.chunk.js.map": "/motion_portfolio/static/js/2.7b0fd3cb.chunk.js.map",
     "index.html": "/motion_portfolio/index.html",
-    "precache-manifest.cba60b7851a95b0a270477a7d118a99f.js": "/motion_portfolio/precache-manifest.cba60b7851a95b0a270477a7d118a99f.js",
+    "precache-manifest.2e8f1157e0337e739ed7fc02e3c2e26a.js": "/motion_portfolio/precache-manifest.2e8f1157e0337e739ed7fc02e3c2e26a.js",
     "service-worker.js": "/motion_portfolio/service-worker.js",
     "static/css/main.135ca307.chunk.css.map": "/motion_portfolio/static/css/main.135ca307.chunk.css.map",
-    "static/js/2.0aeaa3ae.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.0aeaa3ae.chunk.js.LICENSE.txt",
+    "static/js/2.7b0fd3cb.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.7b0fd3cb.chunk.js.LICENSE.txt",
     "static/media/app_pic.svg": "/motion_portfolio/static/media/app_pic.893694fa.svg",
     "static/media/coding.svg": "/motion_portfolio/static/media/coding.4d613f7b.svg",
     "static/media/lightbulb.svg": "/motion_portfolio/static/media/lightbulb.685cd59f.svg",
-    "static/media/logo.svg": "/motion_portfolio/static/media/logo.5d5d9eef.svg",
     "static/media/yellowbulb.svg": "/motion_portfolio/static/media/yellowbulb.7e7f6bfe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b29a03b8.js",
-    "static/js/2.0aeaa3ae.chunk.js",
+    "static/js/2.7b0fd3cb.chunk.js",
     "static/css/main.135ca307.chunk.css",
-    "static/js/main.cc5e3f17.chunk.js"
+    "static/js/main.54e11c72.chunk.js"
   ]
 }
