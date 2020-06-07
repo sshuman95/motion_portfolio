@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import "./about.css";
-import app_pic from "../../app_pic.svg";
+import app_pic from "../../Images/app_pic.svg";
 import Tooltip from '@material-ui/core/Tooltip';
 
 const useStyles = makeStyles({
@@ -12,7 +12,6 @@ const useStyles = makeStyles({
       padding:"20px",
       minHeight:"45vh",
       flexDirection:"column-reverse",
-      display:"flex",
       alignItems:"center",
       display:"flex",
       justifyContent:"space-evenly",
@@ -75,7 +74,7 @@ const About = () =>{
              </Tooltip>
            </div>
            </div>
-           <img src={app_pic} className={classes.app_pic}/>
+           <img src={app_pic} className={classes.app_pic} alt="Mobile Friendly"/>
       </Paper>
   </section>
     )

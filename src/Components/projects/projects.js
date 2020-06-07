@@ -132,20 +132,22 @@ const Projects = () =>{
             dragConstraints={{ left: 0, right: 0 }}
             onDrag={
                 (event, info) => {
-                    if(info.point.x>40){
+                    if(info.point.x>10){
                         changeProject();
-                    } else if(info.point.x<-40){
+                      
+                    } else if(info.point.x<-10){
                         prevProject();
+                        
                     }
                 }
               
               }
             className={classes.motion_project}
-            initial={{x:-70}}
+            initial={{x:-30}}
             animate={{ x:0}}
             transition={{ type: "spring", stiffness: 100}}>
                
-                <img src={project_list[project].image} className={classes.project_image}/>
+                <img alt={project_list[project].name} src={project_list[project].image} className={classes.project_image}/>
                 <article  className={classes.inner_project}>
                 <h1>{project_list[project].name}</h1> 
                 <p>{project_list[project].desc} </p>

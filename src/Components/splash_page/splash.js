@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion"
-import image from "../../lightbulb.svg";
-import image2 from "../../yellowbulb.svg";
+import image from "../../Images/lightbulb.svg";
+import image2 from "../../Images/yellowbulb.svg";
 
 
 const Splash = () =>{
@@ -52,7 +52,7 @@ const Splash = () =>{
         }}
         className="splash_motion"
       >
-          <img src={source} className="lightbulb"/>
+          <img src={source} className="lightbulb" alt={source === image ? "White Lightbulb" :"Yellow Lightbulb"}/>
           <motion.div 
             transition={{ ease: "easeIn", duration: .5 }}
             initial={{ y: 0, opacity:0}}

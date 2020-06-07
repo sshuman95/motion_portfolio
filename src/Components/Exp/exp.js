@@ -2,12 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import coding from "../../coding.svg";
+import coding from "../../Images/coding.svg";
 import { motion } from "framer-motion";
-import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
 
 const useStyles = makeStyles({
   paper:{
@@ -170,7 +167,7 @@ const Skills = ()=>{
     const classes = useStyles();
     return(
         <Paper elavation={3} className={classes.paper_two}>
-            <img src={coding} className={classes.coding}/> 
+            <img src={coding} className={classes.coding} alt="Coding"/> 
             <Typography variant="h4" className={classes.skills}>Skills</Typography>
            
         </Paper>

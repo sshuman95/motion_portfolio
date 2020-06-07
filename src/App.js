@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './Images/logo.svg';
 import './App.css';
 import Splash from "./Components/splash_page/splash";
 import Projects from "./Components/projects/projects";
 import About from "./Components/About/about";
 import Exp from "./Components/Exp/exp";
-import { motion } from "framer-motion"
 function App() {
   return (
     <div className="App">
@@ -18,7 +17,7 @@ function App() {
           <div className="links">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </div>
         </nav>
        </header>
@@ -27,7 +26,7 @@ function App() {
         <Exp/>
         <Projects/>
       </main>
-      <footer>
+      <footer id="contact">
         <h1>Hello</h1>
       </footer>
     </div>
