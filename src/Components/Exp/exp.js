@@ -149,13 +149,16 @@ const About = ()=>{
                         whileHover={{ scale: 1.05 }}
                     >
                 <section className={classes.section}>
-                    <h3  className={classes.title}>Leisure</h3>
+                    <h3  className={classes.title}>Skills</h3>
                     <article className={classes.container}>
-                    <p className={classes.pg} style={{fontWeight:"bold"}}>Brazilian Jiu-Jitsu</p>
-                    <p className={classes.pg}>Upstream BJJ</p>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Front-End</p>
+                    <p className={classes.pg}>HTML - CSS - JS - React - Material UI - Bootstrap - GIT - Responsive Design</p>
                     <Divider className={classes.divider}/>
-                    <p className={classes.pg} style={{fontWeight:"bold"}}>Interactive App Design</p>
-                    <p className={classes.pg}>https://github.com/sshuman95</p>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Back-End</p>
+                    <p className={classes.pg}>Node.Js - Express - Firebase - MongoDB - SQL</p>
+                    <Divider className={classes.divider}/>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Related Skills</p>
+                    <p className={classes.pg}>Microsoft Office Suite - Project Management - Effective Communication </p>
                     </article>
                 </section>
                 </motion.div>
@@ -169,7 +172,7 @@ const Skills = ()=>{
     return(
         <Paper elavation={3} className={classes.paper_two}>
             <img src={coding} className={classes.coding} alt="Coding"/> 
-            <Typography variant="h4" className={classes.skills}>Skills</Typography>
+            <Typography variant="h4" className={classes.skills}>IDK</Typography>
 
         </Paper>
     )
