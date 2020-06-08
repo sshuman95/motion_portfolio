@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/motion_portfolio/static/css/main.135ca307.chunk.css",
-    "main.js": "/motion_portfolio/static/js/main.54e11c72.chunk.js",
-    "main.js.map": "/motion_portfolio/static/js/main.54e11c72.chunk.js.map",
+    "main.css": "/motion_portfolio/static/css/main.f76442cb.chunk.css",
+    "main.js": "/motion_portfolio/static/js/main.e9ad350e.chunk.js",
+    "main.js.map": "/motion_portfolio/static/js/main.e9ad350e.chunk.js.map",
     "runtime-main.js": "/motion_portfolio/static/js/runtime-main.b29a03b8.js",
     "runtime-main.js.map": "/motion_portfolio/static/js/runtime-main.b29a03b8.js.map",
-    "static/js/2.7b0fd3cb.chunk.js": "/motion_portfolio/static/js/2.7b0fd3cb.chunk.js",
-    "static/js/2.7b0fd3cb.chunk.js.map": "/motion_portfolio/static/js/2.7b0fd3cb.chunk.js.map",
+    "static/js/2.d8141374.chunk.js": "/motion_portfolio/static/js/2.d8141374.chunk.js",
+    "static/js/2.d8141374.chunk.js.map": "/motion_portfolio/static/js/2.d8141374.chunk.js.map",
     "index.html": "/motion_portfolio/index.html",
-    "precache-manifest.2e8f1157e0337e739ed7fc02e3c2e26a.js": "/motion_portfolio/precache-manifest.2e8f1157e0337e739ed7fc02e3c2e26a.js",
+    "precache-manifest.30ab72835711462cb5b95ed5e9338eda.js": "/motion_portfolio/precache-manifest.30ab72835711462cb5b95ed5e9338eda.js",
     "service-worker.js": "/motion_portfolio/service-worker.js",
-    "static/css/main.135ca307.chunk.css.map": "/motion_portfolio/static/css/main.135ca307.chunk.css.map",
-    "static/js/2.7b0fd3cb.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.7b0fd3cb.chunk.js.LICENSE.txt",
+    "static/css/main.f76442cb.chunk.css.map": "/motion_portfolio/static/css/main.f76442cb.chunk.css.map",
+    "static/js/2.d8141374.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.d8141374.chunk.js.LICENSE.txt",
     "static/media/app_pic.svg": "/motion_portfolio/static/media/app_pic.893694fa.svg",
     "static/media/coding.svg": "/motion_portfolio/static/media/coding.4d613f7b.svg",
+    "static/media/home.PNG": "/motion_portfolio/static/media/home.2c4a1027.PNG",
+    "static/media/kjp.png": "/motion_portfolio/static/media/kjp.cf0c3226.png",
     "static/media/lightbulb.svg": "/motion_portfolio/static/media/lightbulb.685cd59f.svg",
+    "static/media/ravenous.png": "/motion_portfolio/static/media/ravenous.12b56866.png",
+    "static/media/resume.PNG": "/motion_portfolio/static/media/resume.8aab59f7.PNG",
     "static/media/yellowbulb.svg": "/motion_portfolio/static/media/yellowbulb.7e7f6bfe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b29a03b8.js",
-    "static/js/2.7b0fd3cb.chunk.js",
-    "static/css/main.135ca307.chunk.css",
-    "static/js/main.54e11c72.chunk.js"
+    "static/js/2.d8141374.chunk.js",
+    "static/css/main.f76442cb.chunk.css",
+    "static/js/main.e9ad350e.chunk.js"
   ]
 }
