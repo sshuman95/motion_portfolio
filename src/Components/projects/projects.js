@@ -26,16 +26,29 @@ const useStyles = makeStyles({
          display:"flex",
          flexDirection:"column",
          alignItems:"center",
-         textAlign:"left"
+         textAlign:"left",
+         '@media (min-width: 780px)' : {
+            flexDirection:"row",
+            width:"100%",
+            justifyContent:"space-evenly"
+          }
      },
      project_image:{
          width:"80%",
+         '@media (min-width: 780px)' : {
+           width:"45%"
+            
+          }
         
      },
      inner_project:{
         display:"flex",
         flexDirection:"column",
-        width:"80%"
+        width:"80%",
+        '@media (min-width: 780px)' : {
+            width:"45%"
+             
+           }
     },
     project_buttons:{
         display:"flex",
@@ -62,7 +75,13 @@ const useStyles = makeStyles({
     pointer:{
         '&:hover': {
             cursor:"pointer"
-         }
+         },
+         display:"flex",
+         flexDirection:"column",
+         '@media (min-width: 780px)' : {
+            width:"100%"
+            
+          }
     },
     links:{
         display:'flex',
