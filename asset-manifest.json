@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/motion_portfolio/static/css/main.f76442cb.chunk.css",
-    "main.js": "/motion_portfolio/static/js/main.75e1b39f.chunk.js",
-    "main.js.map": "/motion_portfolio/static/js/main.75e1b39f.chunk.js.map",
+    "main.css": "/motion_portfolio/static/css/main.b8ae5113.chunk.css",
+    "main.js": "/motion_portfolio/static/js/main.243cfd9d.chunk.js",
+    "main.js.map": "/motion_portfolio/static/js/main.243cfd9d.chunk.js.map",
     "runtime-main.js": "/motion_portfolio/static/js/runtime-main.b29a03b8.js",
     "runtime-main.js.map": "/motion_portfolio/static/js/runtime-main.b29a03b8.js.map",
     "static/js/2.d8141374.chunk.js": "/motion_portfolio/static/js/2.d8141374.chunk.js",
     "static/js/2.d8141374.chunk.js.map": "/motion_portfolio/static/js/2.d8141374.chunk.js.map",
     "index.html": "/motion_portfolio/index.html",
-    "precache-manifest.aa307a5994a4ff44da4d39587dc48f96.js": "/motion_portfolio/precache-manifest.aa307a5994a4ff44da4d39587dc48f96.js",
+    "precache-manifest.738c703cc5d76c0ea582712120893b04.js": "/motion_portfolio/precache-manifest.738c703cc5d76c0ea582712120893b04.js",
     "service-worker.js": "/motion_portfolio/service-worker.js",
-    "static/css/main.f76442cb.chunk.css.map": "/motion_portfolio/static/css/main.f76442cb.chunk.css.map",
+    "static/css/main.b8ae5113.chunk.css.map": "/motion_portfolio/static/css/main.b8ae5113.chunk.css.map",
     "static/js/2.d8141374.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.d8141374.chunk.js.LICENSE.txt",
     "static/media/app_pic.svg": "/motion_portfolio/static/media/app_pic.893694fa.svg",
     "static/media/coding.svg": "/motion_portfolio/static/media/coding.4d613f7b.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.b29a03b8.js",
     "static/js/2.d8141374.chunk.js",
-    "static/css/main.f76442cb.chunk.css",
-    "static/js/main.75e1b39f.chunk.js"
+    "static/css/main.b8ae5113.chunk.css",
+    "static/js/main.243cfd9d.chunk.js"
   ]
 }
