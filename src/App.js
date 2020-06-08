@@ -27,7 +27,14 @@ function App() {
         <Projects/>
       </main>
       <footer id="contact">
-        <h1>Hello</h1>
+        <div className="email">
+        <p>Email: </p>
+        <p style={{paddingLeft:"5px"}}>sidney.shuman95@gmail.com</p>
+        </div>
+        <div className='footerLinks'>
+        <a  href="https://www.linkedin.com/in/sidney-shuman-604966160/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sshuman95" rel="noopener noreferrer" target="_blank">GitHub</a>
+        </div>
       </footer>
     </div>
   );

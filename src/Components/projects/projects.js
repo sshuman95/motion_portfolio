@@ -1,12 +1,16 @@
 import React, {useState} from "react";
 import { motion } from "framer-motion";
 import { makeStyles } from '@material-ui/core/styles';
+import kjp from "../../Images/kjp.png";
+import resume from "../../Images/resume.PNG";
+import ravenous from "../../Images/ravenous.png";
+import home from "../../Images/home.PNG";
 import Paper from '@material-ui/core/Paper';
 const useStyles = makeStyles({
      paper:{
          borderRadius:"5px",
          padding:"20px",
-         minHeight:"90vh",
+         minHeight:"72vh",
          display:"flex",
          alignItems:"center",
          boxShadow:"0px 0px 25px 0px rgba(243,210,80,1)"
@@ -59,6 +63,13 @@ const useStyles = makeStyles({
         '&:hover': {
             cursor:"pointer"
          }
+    },
+    links:{
+        display:'flex',
+        marginBlockStart: "1em",
+        marginBlockEnd:'0em',
+        marginInlineStart: 0,
+        marginInlineEnd: 0,
     }
    });
 
@@ -66,18 +77,31 @@ const useStyles = makeStyles({
    const project_list = [
     {
        name:"KJ Presley Designs",
-       desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-       image:"https://sidneyshuman.com/static/media/kjp_image.cf0c3226.PNG"
+       desc:"This site was built using React, Firebase, and Stripe. The owner can easily update their store through their own custom admin portal. Buyers can customize their cart and pay securely with Stripe. Users can also upload an image and submit a custom design.",
+       image:kjp,
+       live:"https://www.kjpresleydesigns.com/",
+       github:"https://github.com/sshuman95/kjpresleydesigns"
     },
     {
        name:"Free Resume Builder",
-       desc:"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum",
-       image:"https://sidneyshuman.com/static/media/ravenous.12b56866.PNG"
+       desc:"This app was built using React and Firebase. Users can create a resume without singing and will be able to save it as a PDF. If a user decides that they want to be able to edit their resume later, they can sign up and firebase will create both a user and document containing that users resume.",
+       image:resume,
+       live:"https://free-resume-builder.web.app/",
+       github:"https://github.com/sshuman95/resumeBuilder"
     },
     {
-        name:"Bulldawg",
-        desc:"Call me bulldawg",
-        image:"https://sidneyshuman.com/static/media/ravenous.12b56866.PNG"
+        name:"Home History",
+        desc:"The goal of this app is to give users more insight into the history of their home. Using React and Firebase users can submit the latest projects done on their homes. Users can then query this data to get information about a possible purchase or help on a DIY.",
+        image:home,
+        live:"https://homehistory.org/",
+        github:"https://github.com/sshuman95/homehistory"
+     },
+    {
+        name:"Ravenous",
+        desc:"Using the Yelp API this app finds restuarants based on the user's search. This app can use multiple search parameters, such as 'Best Match', 'Highest Rated', or 'Most Reviewed'. The JSON data is then mapped to create an eye catching design.",
+        image:ravenous,
+        live:"https://wrong-cherries.surge.sh/",
+        github:"https://github.com/sshuman95/ravenous"
      }
 ]
 
@@ -94,12 +118,12 @@ const Projects = () =>{
     const changeProject= () =>{
         if(project === (project_list.length - 1) ){
             setProject(0);
-            setPrev(2);
+            setPrev(3);
             setNext(1)
         } else {
             let count = project+1;
-            let nxt = count ===2?0:count+1;
-            let prv = count >= 1 ? count -1 : 2;
+            let nxt = count ===3?0:count+1;
+            let prv = count >= 1 ? count -1 : 3;
             setProject(count);
            setNext(nxt);
            setPrev(prv);
@@ -109,12 +133,12 @@ const Projects = () =>{
     const prevProject= () =>{
         if(project ===0 ){
             setProject(project_list.length - 1);
-            setPrev(1);
+            setPrev(2);
             setNext(0);
         } else {
             let count = project - 1;
-            let nxt = count ===2?0:count+1;
-            let prv = count >=1 ? count -1 : 2;
+            let nxt = count ===3?0:count+1;
+            let prv = count >=1 ? count -1 : 3;
             setProject(count);
             setNext(nxt);
            setPrev(prv);
@@ -150,6 +174,10 @@ const Projects = () =>{
                 <img alt={project_list[project].name} src={project_list[project].image} className={classes.project_image}/>
                 <article  className={classes.inner_project}>
                 <h1>{project_list[project].name}</h1> 
+                <div className={classes.links}>
+                    <a rel="noopener noreferrer" target="_blank" href={project_list[project].live} style={{marginRight:"10px"}}>Live</a>
+                    <a rel="noopener noreferrer" target="_blank" href={project_list[project].github}>GitHub</a>
+                </div>
                 <p>{project_list[project].desc} </p>
                 </article>
             </motion.div>

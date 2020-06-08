@@ -97,7 +97,8 @@ const useStyles = makeStyles({
   },
   divider:{
       margin:"10px 0"
-  }
+  },
+
 })
 
 const About = ()=>{
@@ -153,8 +154,8 @@ const About = ()=>{
                     <p className={classes.pg} style={{fontWeight:"bold"}}>Brazilian Jiu-Jitsu</p>
                     <p className={classes.pg}>Upstream BJJ</p>
                     <Divider className={classes.divider}/>
-                    <p className={classes.pg} style={{fontWeight:"bold"}}>Coming Soon</p>
-                    <p className={classes.pg}>Coming soon</p>
+                    <p className={classes.pg} style={{fontWeight:"bold"}}>Interactive App Design</p>
+                    <p className={classes.pg}>https://github.com/sshuman95</p>
                     </article>
                 </section>
                 </motion.div>
@@ -169,7 +170,7 @@ const Skills = ()=>{
         <Paper elavation={3} className={classes.paper_two}>
             <img src={coding} className={classes.coding} alt="Coding"/> 
             <Typography variant="h4" className={classes.skills}>Skills</Typography>
-           
+
         </Paper>
     )
 }
