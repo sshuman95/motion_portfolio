@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/motion_portfolio/static/css/main.25fb88d1.chunk.css",
-    "main.js": "/motion_portfolio/static/js/main.ad250a6d.chunk.js",
-    "main.js.map": "/motion_portfolio/static/js/main.ad250a6d.chunk.js.map",
+    "main.js": "/motion_portfolio/static/js/main.5f11a30e.chunk.js",
+    "main.js.map": "/motion_portfolio/static/js/main.5f11a30e.chunk.js.map",
     "runtime-main.js": "/motion_portfolio/static/js/runtime-main.b29a03b8.js",
     "runtime-main.js.map": "/motion_portfolio/static/js/runtime-main.b29a03b8.js.map",
-    "static/js/2.8207c9d1.chunk.js": "/motion_portfolio/static/js/2.8207c9d1.chunk.js",
-    "static/js/2.8207c9d1.chunk.js.map": "/motion_portfolio/static/js/2.8207c9d1.chunk.js.map",
+    "static/js/2.ec79ad12.chunk.js": "/motion_portfolio/static/js/2.ec79ad12.chunk.js",
+    "static/js/2.ec79ad12.chunk.js.map": "/motion_portfolio/static/js/2.ec79ad12.chunk.js.map",
     "index.html": "/motion_portfolio/index.html",
-    "precache-manifest.ac54be2377edcced348b61b9762ee654.js": "/motion_portfolio/precache-manifest.ac54be2377edcced348b61b9762ee654.js",
+    "precache-manifest.542a978f141bdb88d099e9d0fc7daec6.js": "/motion_portfolio/precache-manifest.542a978f141bdb88d099e9d0fc7daec6.js",
     "service-worker.js": "/motion_portfolio/service-worker.js",
     "static/css/main.25fb88d1.chunk.css.map": "/motion_portfolio/static/css/main.25fb88d1.chunk.css.map",
-    "static/js/2.8207c9d1.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.8207c9d1.chunk.js.LICENSE.txt",
+    "static/js/2.ec79ad12.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.ec79ad12.chunk.js.LICENSE.txt",
     "static/media/app_pic.svg": "/motion_portfolio/static/media/app_pic.893694fa.svg",
     "static/media/coding.svg": "/motion_portfolio/static/media/coding.4d613f7b.svg",
     "static/media/home.PNG": "/motion_portfolio/static/media/home.2c4a1027.PNG",
@@ -19,12 +19,13 @@
     "static/media/lightbulb.svg": "/motion_portfolio/static/media/lightbulb.685cd59f.svg",
     "static/media/ravenous.png": "/motion_portfolio/static/media/ravenous.12b56866.png",
     "static/media/resume.PNG": "/motion_portfolio/static/media/resume.8aab59f7.PNG",
+    "static/media/sidney_updated_resume.pdf": "/motion_portfolio/static/media/sidney_updated_resume.6ef54016.pdf",
     "static/media/yellowbulb.svg": "/motion_portfolio/static/media/yellowbulb.7e7f6bfe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b29a03b8.js",
-    "static/js/2.8207c9d1.chunk.js",
+    "static/js/2.ec79ad12.chunk.js",
     "static/css/main.25fb88d1.chunk.css",
-    "static/js/main.ad250a6d.chunk.js"
+    "static/js/main.5f11a30e.chunk.js"
   ]
 }
