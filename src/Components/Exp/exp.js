@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   paper_two:{
     borderRadius:"5px",
     marginTop:"25px",
-    minHeight:"80vh",
+   
     display:"flex",
     alignItems:"flex-start",
     flexDirection:"column",
@@ -33,8 +33,8 @@ const useStyles = makeStyles({
     boxShadow:"0px 0px 25px 0px rgba(243,210,80,1)",
     '@media (min-width: 780px)' : {
         marginTop:"0",
-        width:"30%"
-        
+        width:"30%",
+        minHeight:"80vh"
       }
 },
   about:{
@@ -66,11 +66,18 @@ const useStyles = makeStyles({
     color:"#2F2E41",
     fontWeight:"bold",
     marginTop:"15px",
-    padding:"15px"
+    padding:"15px",
+    marginBottom:"0"
   },
   section:{
     marginTop:"0px",
-    padding:"10px 45px",
+    padding:"10px 15px",
+    '@media (min-width: 780px)' : {
+        width:"auto",
+        padding:"10px 45px",
+        
+      },
+      width:"90%"
   },
   title:{
       background:"#F3D250",
@@ -93,11 +100,20 @@ const useStyles = makeStyles({
   container:{
     border: "1px solid #F3D250",
     paddingTop:"10px",
-    paddingBottom:"10px"
+    paddingBottom:"10px",
   },
   divider:{
       margin:"10px 0"
   },
+  services:{
+      textAlign:'left',
+      display:'flex',
+      flexDirection:"column",
+      justifyContent:"space-around",
+      height:"100%",
+      fontSize:'1.5em',
+      marginTop:'0'
+  }
 
 })
 
@@ -152,7 +168,7 @@ const About = ()=>{
                     <h3  className={classes.title}>Skills</h3>
                     <article className={classes.container}>
                     <p className={classes.pg} style={{fontWeight:"bold"}}>Front-End</p>
-                    <p className={classes.pg}>HTML - CSS - JS - React - Material UI - Bootstrap - GIT - Responsive Design</p>
+                    <p className={classes.pg}>HTML - CSS - JS - React - Material UI - Bootstrap - GIT</p>
                     <Divider className={classes.divider}/>
                     <p className={classes.pg} style={{fontWeight:"bold"}}>Back-End</p>
                     <p className={classes.pg}>Node.Js - Express - Firebase - MongoDB - SQL</p>
@@ -172,8 +188,15 @@ const Skills = ()=>{
     return(
         <Paper elavation={3} className={classes.paper_two}>
             <img src={coding} className={classes.coding} alt="Coding"/> 
-            <Typography variant="h4" className={classes.skills}>IDK</Typography>
-
+            <Typography variant="h4" className={classes.skills}>Services</Typography>
+            <ul className={classes.services}>
+                <li className={classes.service_item}>Custom Websites</li>
+                <li className={classes.service_item}>Responsive Design</li>
+                <li className={classes.service_item}>API Development & Integration</li>
+                <li className={classes.service_item}>Server Side Programming</li>
+                <li className={classes.service_item}>Database Integration</li>
+            </ul>
+           
         </Paper>
     )
 }

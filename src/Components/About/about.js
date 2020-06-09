@@ -25,7 +25,7 @@ const useStyles = makeStyles({
      width:"80%",
      position:"relative",
      marginTop:"0px",
-     marginBottom:"15px",
+     marginBottom:"25px",
      paddingBottom:"0px",
      zIndex:1,
 

@@ -97,6 +97,25 @@ nav{
 img{ 
   pointer-events: none;
 }
-@media only screen and (min-width:700px) {
+@media only screen and (max-width:500px) {
+  .links{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+    color:#2F2E41;
+    font-weight: bolder;
+  }
 
+  .initials{
+    padding:10px 10px;
+    color:#2F2E41;
+    border:5px solid rgba(243,210,80,.8);
+    text-align: center;
+    justify-self: right;
+  }
+
+  .initials h3{
+    padding:0;
+    margin:0;
+  }
 }

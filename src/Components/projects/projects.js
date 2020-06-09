@@ -6,11 +6,16 @@ import resume from "../../Images/resume.PNG";
 import ravenous from "../../Images/ravenous.png";
 import home from "../../Images/home.PNG";
 import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
      paper:{
          borderRadius:"5px",
          padding:"20px",
          minHeight:"72vh",
+         '@media (min-width: 780px)' : {
+            minHeight:"60vh",
+             
+           },
          display:"flex",
          alignItems:"center",
          boxShadow:"0px 0px 25px 0px rgba(243,210,80,1)"
@@ -89,7 +94,14 @@ const useStyles = makeStyles({
         marginBlockEnd:'0em',
         marginInlineStart: 0,
         marginInlineEnd: 0,
-    }
+    },
+    title:{
+        color:"#2F2E41",
+        fontWeight:"bold",
+        marginTop:"15px",
+        padding:"0px 25px",
+        alignSelf:"flex-start"
+    },
    });
 
 
@@ -169,7 +181,9 @@ const Projects = () =>{
     const Container = () =>{
         return(
             <div className={classes.pointer}>
-
+           <Typography variant="h4" className={classes.title}>
+                    Projects
+                </Typography>
             <motion.div 
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
