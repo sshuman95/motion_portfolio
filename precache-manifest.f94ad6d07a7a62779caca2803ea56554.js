@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d03b918003016fc1c6ca52d9dc081ab",
+    "revision": "c6c986ce9d14d3210a1169a97f0ce13a",
     "url": "/motion_portfolio/index.html"
   },
   {
-    "revision": "00a21bd5ad4f58a71096",
+    "revision": "1a5b2f082b3b3e720a25",
     "url": "/motion_portfolio/static/css/main.25fb88d1.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/motion_portfolio/static/js/2.ec79ad12.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00a21bd5ad4f58a71096",
-    "url": "/motion_portfolio/static/js/main.84daa55d.chunk.js"
+    "revision": "1a5b2f082b3b3e720a25",
+    "url": "/motion_portfolio/static/js/main.81e3aa47.chunk.js"
   },
   {
     "revision": "faec2ec53e862eda701f",
     "url": "/motion_portfolio/static/js/runtime-main.b29a03b8.js"
   },
   {
-    "revision": "35691f4397ca592b3238875bd038fd43",
-    "url": "/motion_portfolio/static/media/Sidney_shuman_resume_2020.35691f43.pdf"
+    "revision": "c80a31aa9f1f5e028b8f1640cf8c504d",
+    "url": "/motion_portfolio/static/media/Sidney_shuman_resume_2020.c80a31aa.pdf"
   },
   {
     "revision": "893694fa5bc756e24c380633f6dcb6d6",

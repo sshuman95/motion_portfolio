@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/motion_portfolio/static/css/main.25fb88d1.chunk.css",
-    "main.js": "/motion_portfolio/static/js/main.84daa55d.chunk.js",
-    "main.js.map": "/motion_portfolio/static/js/main.84daa55d.chunk.js.map",
+    "main.js": "/motion_portfolio/static/js/main.81e3aa47.chunk.js",
+    "main.js.map": "/motion_portfolio/static/js/main.81e3aa47.chunk.js.map",
     "runtime-main.js": "/motion_portfolio/static/js/runtime-main.b29a03b8.js",
     "runtime-main.js.map": "/motion_portfolio/static/js/runtime-main.b29a03b8.js.map",
     "static/js/2.ec79ad12.chunk.js": "/motion_portfolio/static/js/2.ec79ad12.chunk.js",
     "static/js/2.ec79ad12.chunk.js.map": "/motion_portfolio/static/js/2.ec79ad12.chunk.js.map",
     "index.html": "/motion_portfolio/index.html",
-    "precache-manifest.0c2b5ab048d18d1ed2d517e1afcb2983.js": "/motion_portfolio/precache-manifest.0c2b5ab048d18d1ed2d517e1afcb2983.js",
+    "precache-manifest.f94ad6d07a7a62779caca2803ea56554.js": "/motion_portfolio/precache-manifest.f94ad6d07a7a62779caca2803ea56554.js",
     "service-worker.js": "/motion_portfolio/service-worker.js",
     "static/css/main.25fb88d1.chunk.css.map": "/motion_portfolio/static/css/main.25fb88d1.chunk.css.map",
     "static/js/2.ec79ad12.chunk.js.LICENSE.txt": "/motion_portfolio/static/js/2.ec79ad12.chunk.js.LICENSE.txt",
-    "static/media/Sidney_shuman_resume_2020.pdf": "/motion_portfolio/static/media/Sidney_shuman_resume_2020.35691f43.pdf",
+    "static/media/Sidney_shuman_resume_2020.pdf": "/motion_portfolio/static/media/Sidney_shuman_resume_2020.c80a31aa.pdf",
     "static/media/app_pic.svg": "/motion_portfolio/static/media/app_pic.893694fa.svg",
     "static/media/coding.svg": "/motion_portfolio/static/media/coding.4d613f7b.svg",
     "static/media/home.PNG": "/motion_portfolio/static/media/home.2c4a1027.PNG",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.b29a03b8.js",
     "static/js/2.ec79ad12.chunk.js",
     "static/css/main.25fb88d1.chunk.css",
-    "static/js/main.84daa55d.chunk.js"
+    "static/js/main.81e3aa47.chunk.js"
   ]
 }
