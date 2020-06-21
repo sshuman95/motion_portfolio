@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import "./about.css";
 import app_pic from "../../Images/app_pic.svg";
 import Tooltip from '@material-ui/core/Tooltip';
-import PDF from "../../Images/sidney_updated_resume.pdf";
+import PDF from "../../Images/Sidney_shuman_resume_2020.pdf";
 
 const useStyles = makeStyles({
   paper:{
